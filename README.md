@@ -1,6 +1,9 @@
 # zbd-pay-to-lightning-address
 A simple application to learn how to build Django apps with Lightning Network &amp; LNURL functionality.
 
+## disclaimer
+Please note this is a repository geared towards teaching how to use the ZBD API to easily build lightning network applications. This is NOT suitable for production usage.
+
 ## setup
 1- Start off by creating an environmental file in the root directory. 
 Execute using your terminal or create a new file using your file system called `.env`. 
@@ -19,3 +22,6 @@ Since this is just for educational purposes, you can do input whatever you'd lik
 
 ## learn how to build this app:
 https://emeralize.app/course/16/resource/116/
+
+A simple application to learn how to build Django apps with Lightning Network & LNURL functionality.
+
