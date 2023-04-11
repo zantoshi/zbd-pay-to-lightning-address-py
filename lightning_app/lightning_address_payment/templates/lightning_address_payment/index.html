@@ -1,0 +1,37 @@
+{% extends "lightning_address_payment/base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3>Make a Lightning Address Payment</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <form action="{% url 'index' %}" method="post">
+                {% csrf_token %}
+                <div class="col-4">
+                    <div class="mb-3">
+                        <label  class="form-label">Lightning Address</label>
+                        <input type="email" class="form-control" placeholder="name@example.com" name="lnaddress" required>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <label  class="form-label" >Amount</label>
+
+                    <div class="input-group mb-3">
+                        <input type="number" class="form-control" name="amount" required>
+                        <span class="input-group-text">sats</span>
+                      </div>
+                </div>
+                <div class="col-4">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+{% endblock %}
