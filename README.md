@@ -18,6 +18,7 @@ Since this is just for educational purposes, you can do input whatever you'd lik
 
 2- Install the dependencies using pip.
 `pip3 install -r requirements.txt`
+
 3- Run the server and give it a shot!
 
 ## learn how to build this app:
